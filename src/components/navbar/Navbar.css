@@ -1,0 +1,104 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 10rem;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+.div1 {
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* letter-spacing: 2px; */
+}
+.material-ui-menuicon {
+  padding-right: 1rem;
+}
+
+.newMenu {
+  position: relative;
+  cursor: pointer;
+}
+.DropMenu {
+  margin-top: -2.2rem;
+  margin-left: -12.5rem;
+  background-color: black;
+  /* color: white; */
+  color: #c1c1c1;
+  padding: 2.5rem;
+  width: 250px;
+  height: 100vh;
+  /* box-shadow:5px 5px gray; */
+  position: absolute;
+}
+.listItem {
+  padding: 0.5rem;
+  text-align: left;
+  cursor: pointer;
+  text-align: center;
+}
+.listItem:hover {
+  color: #8e8e8e;
+}
+.logo1 {
+  width: 65px;
+  height: 65px;
+  border-radius: 10rem;
+  padding: 0.5rem;
+  margin-left: -2rem;
+}
+.buybutton {
+  width: 8rem;
+  height: 2.5rem;
+  margin-left: 1.5rem;
+  background-color: orange;
+  color: white;
+  border: none;
+}
+.buybutton:hover {
+  background-color: #ffbc00;
+}
+.list {
+  padding-inline: 2rem;
+}
+.menuIcon {
+  font-size: 40px !important;
+  color: white;
+}
+.ul {
+  text-align: center;
+  margin-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #c1c1c1;
+  cursor: pointer;
+}
+.menuItem:hover {
+  color: #8e8e8e;
+}

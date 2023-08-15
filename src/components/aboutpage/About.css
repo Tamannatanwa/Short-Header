@@ -1,0 +1,70 @@
+.aboutPage {
+  display: flex;
+}
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #efefef;
+  justify-content: center;
+  padding-left: 4rem;
+  gap: 1rem;
+  line-height: 2rem;
+  width: 65%;
+}
+.image {
+  width: 100%;
+}
+.iconData {
+  display: flex;
+  gap: 0.5rem;
+}
+.icon {
+  font-size: 50px !important;
+  background-color: black;
+  color: white !important;
+  padding: 0.8rem;
+  border-radius: 5rem;
+  margin-bottom: 2rem;
+}
+.icon:hover {
+  background-color: orange;
+}
+.aboutme {
+  margin-top: 2rem;
+  font-size: 2.8rem !important;
+}
+
+/* Small screens and laptops */
+@media screen and (max-width: 1024px) {
+  .aboutPage {
+    display: block;
+  }
+  .aboutContent {
+    width: 100%;
+  }
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 768px) {
+  .aboutPage {
+    margin-top: 10rem;
+  }
+  .aboutme {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem !important;
+  }
+  .textcenter{
+    text-align: center;
+  }
+  .aboutContent {
+    padding-inline: 1rem;
+  }
+  .icon {
+    margin-left: 0.5rem;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 360px) {
+}

@@ -1,0 +1,195 @@
+.App {
+  /* margin-top: 11.8rem !important; */
+  font-size: 1rem;
+  font-weight: 400;
+  color: #232323;
+  font-family: Dosis;
+  font-style: normal;
+  line-height: 1.5;
+  word-wrap: break-word;
+  box-sizing: inherit;
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("https://mobirise.com/extensions/portfoliom4/assets/images/background3.jpg");
+  position: relative;
+  /* top: 0px;
+  left: 0px; */
+  /* width: 129.25rem; */
+  height: 800.647px;
+  overflow: hidden;
+  pointer-events: none;
+  margin-left: -233.827px;
+  /* margin-top: 104.677px; */
+  visibility: visible;
+  transform: translate3d(0px, -104.677px, 0px);
+  padding: 150px 0 150px 0;
+  background-attachment: fixed;
+}
+.col-md-7 {
+  margin-top: 8rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #232323;
+  font-family: Dosis;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: center !important;
+  word-wrap: break-word;
+  box-sizing: inherit;
+  position: absolute;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+  /* margin: 5rem; */
+}
+.slider-text-two {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #232323;
+  font-family: Dosis;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: center !important;
+  word-wrap: break-word;
+  box-sizing: inherit;
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+  display: inline-block;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  outline-offset: -15px;
+  padding: 65px 50px;
+  position: absolute;
+}
+.mbr-section-title {
+  box-sizing: inherit;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+  font-family: "Dosis", sans-serif;
+  font-size: 3.5rem;
+  color: #232323;
+}
+
+.mbr-section-subtitle {
+  font-style: normal;
+  box-sizing: inherit;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 1.3;
+  font-family: "Dosis", sans-serif;
+  font-size: 1.4rem;
+  color: #232323;
+}
+.mbr-text {
+  box-sizing: inherit;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  word-break: break-word;
+  word-wrap: break-word;
+  text-align: center;
+  font-style: normal;
+  line-height: 1.6;
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+  color: #232323;
+  font-weight: 100;
+}
+.mbr-section-btn {
+  font-weight: 400;
+  font-family: Dosis;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: center !important;
+  word-wrap: break-word;
+  box-sizing: inherit;
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  font-size: 0;
+  color: white;
+}
+.btn-primary {
+  box-sizing: inherit;
+  touch-action: manipulation;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  line-height: 1;
+  word-wrap: break-word;
+  /* -webkit-appearance: none; */
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  border-width: 2px;
+  font-style: normal;
+  white-space: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-word;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0.4rem 0.8rem !important;
+  transition: all 0.3s ease-in-out;
+  padding: 0.8rem 2rem;
+  border-radius: 0px;
+  background-color: #ffbc00;
+  border-color: #ffbc00;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Small screens and laptops */
+@media screen and (max-width: 1024px) {
+  .App {
+    margin-top: -2rem;
+    /* width: 69.75rem; */
+  }
+  .col-md-7{
+    margin-top: 5rem;
+  }
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 767px) {
+  .App {
+    margin-top: -6rem;
+  }
+  .mbr-section-title {
+    line-height: 0.5;
+    font-size: 1.5rem;
+  }
+  .btn-primary {
+    font-size: 0.5rem;
+    padding: 0.5rem 0rem;
+  }
+  .slider-text-two {
+    font-size: 1rem;
+    padding: 40px 0px;
+  }
+  .col-md-7 {
+    margin-top: 8rem;
+    padding-left: 45px;
+    max-width: 90%;
+  }
+  .mbr-text {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 320px) {
+}

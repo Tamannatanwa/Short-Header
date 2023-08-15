@@ -1,0 +1,52 @@
+.gridParent {
+  display: flex;
+  text-align: center;
+}
+.gridChild {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 500px;
+  height: 300px;
+  padding-block: 5rem;
+  background-color: #cccccc;
+}
+.gridChild2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 500px;
+  height: 300px;
+  padding-block: 5rem;
+  background-color: #efefef;
+}
+.newIcons {
+  font-size: 70px !important;
+}
+.newIcons:hover {
+  color: orange;
+}
+
+
+/* Small screens and laptops */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 768px) {
+  .gridParent {
+    display:block;
+  }
+  .gridChild {
+    width: 374px;
+  }
+  .gridChild2 {
+    width: 374px;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 320px) {
+}
+

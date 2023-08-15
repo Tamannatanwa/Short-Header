@@ -1,0 +1,61 @@
+.footer {
+  width: 100%;
+  height: 5rem;
+  background-color: #232323;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.linkMenu {
+  display: flex;
+  gap: 5px;
+}
+.links {
+  color: #ffbc00;
+}
+.links:hover {
+  color: lightsalmon;
+}
+.iconData {
+  display: flex;
+  gap: 0.5rem;
+}
+.icon {
+  font-size: 40px !important;
+  /* background-color: black; */
+  color: white !important;
+  padding: 0.8rem;
+  border-radius: 5rem;
+  border: 2.5px solid white;
+  margin-top: 2rem;
+}
+.icon:hover {
+  background-color: orange;
+}
+
+
+
+/* Small screens and laptops */
+@media screen and (max-width: 1024px) {
+
+
+}
+/* iPads, Tablets */
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: -1rem;
+    padding-top: 2rem;
+    height: 10rem;
+    display: block;
+    padding-inline: 3.8rem;
+  }
+  .icon {
+    margin-top: 1.2rem;
+  }
+
+
+}
+/* Mobile devices */
+@media screen and (max-width: 320px) {
+}

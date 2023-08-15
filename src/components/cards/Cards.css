@@ -1,0 +1,71 @@
+.cardstext {
+  text-align: center;
+  line-height: 3.5rem;
+  word-spacing: 0.2rem;
+  font-weight: lighter !important;
+  margin-top: -2rem;
+}
+.flex {
+  margin-top: 2rem;
+  /* justify-content: space-around; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 2rem; */
+}
+.childCard {
+  padding: 0px 15px 32px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.5rem;
+  width: 250px;
+  height: 285px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.loremData {
+  font-weight: lighter;
+  font-size: 0.9rem;
+}
+
+.icons {
+  font-size: 50px !important;
+}
+.icons:hover {
+  color: orange;
+}
+
+/* Small screens and laptops */
+@media screen and (max-width: 1024px) {
+    .cardstext {
+        margin-top: -8rem;
+      }
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 768px) {
+  .cardstext {
+    margin-top: -18rem;
+    line-height: 2.5rem;
+  }
+  .childCard {
+    text-align: center;
+    gap: 0.5rem;
+    width: 500px;
+    height: 180px;
+  }
+}
+
+
+/* Mobile devices */
+@media screen and (max-width: 320px) {
+}

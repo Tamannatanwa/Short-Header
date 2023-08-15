@@ -1,0 +1,59 @@
+.workingParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.digitalIcon {
+  font-size: 60px !important;
+}
+.childCard1 {
+  text-align: center;
+}
+.digitalIconContent {
+  width: 120px;
+  height: 120px;
+  background-color: #232323;
+  color: white;
+  padding: 2rem;
+  border-radius: 5rem;
+  text-align: center;
+  margin-left: 3.5rem;
+  margin-bottom: 1rem;
+}
+.digitalIconContent:hover {
+  background-color: orange;
+}
+span {
+  color: orange;
+}
+
+.loremData1 {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+
+/* Small screens and laptops */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 768px) {
+  .digitalIconContent {
+    margin-left: 6rem;
+    margin-bottom: 1.5rem;
+  }
+  .childCard1 {
+    margin-top: 7.5rem;
+    padding-inline: 2rem;;
+  }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 320px) {
+}
+

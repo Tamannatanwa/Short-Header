@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Barlow:wght@300&family=Borel&family=Dancing+Script:wght@400;600&family=Josefin+Sans:ital@1&family=Kanit:wght@200&family=Lilita+One&family=Nunito+Sans&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,300;0,700;1,600;1,700&family=Roboto+Condensed&display=swap'); 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  --bl-color1: #b290fc;
+  --bl-color2: #ececec;
+  --bl-color3: #f1fa8c;
+  --bl-color4: #ff79c6;
+  --bl-color5: #ffb86c;
+  --bl-color6: #f99393;
+  --bl-color7: #ececec;
+  --bl-color-faded: #605c7b;
+  font-family: 'Alfa Slab One', cursive;
+font-family: 'Barlow', sans-serif;
+font-family: 'Borel', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'REM', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type:none;
+}
